@@ -109,3 +109,6 @@ combineMultipleDigits<-function(x){
   return(x)
 }
 
+## Initialise blank data frame
+bob<-data.frame(name=character(),x=integer(),y=integer())
+
